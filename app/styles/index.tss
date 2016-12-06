@@ -1,5 +1,6 @@
 ".container": {
-	backgroundColor:"white"
+	backgroundColor:"white",
+	layout: 'vertical'
 }
 
 "Label": {
@@ -8,8 +9,23 @@
 	color: "#000"
 }
 
-"#label": {
+"#label1": {
 	font: {
-		fontSize: 12
+		fontSize: 22,
+		fontFamily: 'SegoeUI-Bold'
+	}
+}
+
+"#label2": {
+	font: {
+		fontSize: 22,
+		fontFamily: 'SegoeUI-Italic'
+	}
+}
+
+"#label3": {
+	font: {
+		fontSize: 22,
+		fontFamily: 'SegoeUI-Light'
 	}
 }
