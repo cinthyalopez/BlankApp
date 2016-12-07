@@ -1,5 +1,18 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+	<Window fullscreen="true" backgroundColor="#F00">
+		<ListView>
+			<SearchBar barColor="#000" />
+
+			<ListSection>
+				<ListItem title="Papaya" searchableText="Papaya"/>
+				<ListItem title="Peach" searchableText="Peach"/>
+				<ListItem title="Pear" searchableText="Pear"/>
+				<ListItem title="Persimmon" searchableText="Persimmon"/>
+				<ListItem title="Pineapple" searchableText="Pineapple"/>
+				<ListItem title="Pluto" searchableText="Pluto"/>
+				<ListItem title="Pomegranate" searchableText="Pomegranate"/>
+			</ListSection>
+		
+		</ListView>
 	</Window>
 </Alloy>
