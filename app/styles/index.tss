@@ -11,7 +11,7 @@
 },
 '#dummyView1': {
 	width: Ti.UI.FILL,
-	height: 3000,
+	height: Ti.UI.FILL,
 	layout: 'vertical',
 	backgroundColor: 'cyan',
 	contentHeight: 'auto'
