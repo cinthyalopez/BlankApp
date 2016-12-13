@@ -14,7 +14,8 @@
 	height: Ti.UI.FILL,
 	layout: 'vertical',
 	backgroundColor: 'cyan',
-	contentHeight: 'auto'
+	contentHeight: 'auto',
+	scrollingEnabled: true
 },
 '#verticalLayoutView': {
 	backgroundColor: 'brown',
