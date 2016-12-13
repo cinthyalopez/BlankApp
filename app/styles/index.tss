@@ -55,16 +55,6 @@
 	right: 0,
 	title: 'SHOW LOADING INDICATOR WITH REFRESHING MESSAGE'
 }
-'#pickerWrapper': {
-	left: 0,
-	right: 0,
-	height: 800,
-	backgroundColor: 'yellow'
-},
-'#picker':{
-	height: 200,
-	width: 250
-}
 '#showAlertButton': {
 	height: 20,
 	width: 200,
