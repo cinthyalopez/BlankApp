@@ -1,5 +1,29 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+	<Window id="container">
+		<View id="wrapper">
+			<ScrollView id="dummyView1">
+				<View id="verticalLayoutView" class='wrapper'>
+					<Label id="label1">Label 1</Label>
+					<Label id="label2">Label 2</Label>
+					<Label id="label3">Label 3</Label>
+				</View>
+				<View id="horizontalLayoutView" class='wrapper'>
+					<Label id="label4">Label 4</Label>
+					<Label id="label5">Label 5</Label>
+					<Label id="label6">Label 6</Label>
+				</View>
+				<View id="absoluteLayoutView" class='wrapper'>
+					<Label id="label7">Label 7</Label>
+					<Label id="label8">Label 8</Label>
+					<Label id="label9">Label 9</Label>
+				</View>
+				<Button id="showLoadingIndicatorButton" />
+				<Button id="showRefreshingLoadingIndicatorButton" />
+				<View id="pickerWrapper">
+				</View>
+				<Button id="showAlertButton" />
+				<Button id="showAlertDialogButton" />
+			</ScrollView>
+		</View>
 	</Window>
 </Alloy>

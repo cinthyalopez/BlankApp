@@ -1,6 +1,86 @@
-".container": {
-	backgroundColor:"white"
+"#container": {
+	height: Ti.UI.FILL,
+	widht: Ti.UI.FILL,
+	backgroundColor:"white",
+},
+'#wrapper': {
+	top: 0,
+	left: 0,
+	right: 0,	
+	height: Ti.UI.SIZE,
+},
+'#dummyView1': {
+	width: Ti.UI.FILL,
+	height: 3000,
+	layout: 'vertical',
+	backgroundColor: 'cyan',
+	contentHeight: 'auto'
+},
+'#verticalLayoutView': {
+	backgroundColor: 'brown',
+	layout: 'vertical'
+},
+'#horizontalLayoutView': {
+	backgroundColor: 'purple',
+	layout: 'horizontal'
+},
+'#absoluteLayoutView': {
+	backgroundColor: 'gray',
+	layout: 'absolute'
+},
+'#label7': {
+	top: 10,
+	left: 5,
+	font: {
+		fontSize: 35
+	}
+},
+'#label8': {
+	top: 50,
+	right: 80
+},
+'#label9': {
+	top: 60,
+	left: 90
+},
+'#showLoadingIndicatorButton': {
+	top: 10,
+	left: 10,
+	right: 10,
+	title: 'SHOW LOADING INDICATOR'
+},	
+'#showRefreshingLoadingIndicatorButton': {
+	top: 20,
+	left: 0,
+	right: 0,
+	title: 'SHOW LOADING INDICATOR WITH REFRESHING MESSAGE'
 }
+'#pickerWrapper': {
+	left: 0,
+	right: 0,
+	height: 800,
+	backgroundColor: 'yellow'
+},
+'#picker':{
+	height: 200,
+	width: 250
+}
+'#showAlertButton': {
+	height: 20,
+	width: 200,
+	title: 'Show Alert'
+}
+'#showAlertDialogButton': {
+	height: 20,
+	width: 200,
+	title: 'Show Alert Dialog'
+}
+
+'.wrapper': {
+	top: 20,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL
+},
 
 "Label": {
 	width: Ti.UI.SIZE,
