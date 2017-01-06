@@ -1,7 +1,15 @@
 <Alloy>
 	<Window class="container">
-		<Label id="label1" onClick="doClick">Hello, World Bold</Label>
-		<Label id="label2" onClick="doClick">Hello, World Italic</Label>
-		<Label id="label3" onClick="doClick">Hello, World Light</Label>
+		<Label id="label1">Hello, World Bold</Label>
+		<Label id="label2">Hello, World Italic</Label>
+		<Label id="label3">Hello, World Light</Label>
+		
+		<Label id="label4">Hello, World Bold2</Label>
+		<Label id="label5">Hello, World Italic2</Label>
+		<Label id="label6">Hello, World Light2</Label>
+		
+		<Label id="label7">Hello, World Bold3</Label>
+		<Label id="label8">Hello, World Italic3</Label>
+		<Label id="label9">Hello, World Light3</Label>
 	</Window>
 </Alloy>

@@ -11,21 +11,63 @@
 
 "#label1": {
 	font: {
-		fontSize: 22,
+		fontSize: 32,
 		fontFamily: 'SegoeUI-Bold'
 	}
 }
 
 "#label2": {
 	font: {
-		fontSize: 22,
+		fontSize: 32,
 		fontFamily: 'SegoeUI-Italic'
 	}
 }
 
 "#label3": {
 	font: {
-		fontSize: 22,
+		fontSize: 32,
 		fontFamily: 'SegoeUI-Light'
+	}
+}
+
+"#label4": {
+	font: {
+		fontSize: 32,
+		fontFamily: 'segoeuib'
+	}
+}
+
+"#label5": {
+	font: {
+		fontSize: 32,
+		fontFamily: 'segoeuii'
+	}
+}
+
+"#label6": {
+	font: {
+		fontSize: 32,
+		fontFamily: 'segoeuil'
+	}
+}
+
+"#label7": {
+	font: {
+		fontSize: 32,
+		fontFamily: 'Segoe UI 8 Negreta'
+	}
+}
+
+"#label8": {
+	font: {
+		fontSize: 32,
+		fontFamily: 'Segoe UI 8 Cursiva'
+	}
+}
+
+"#label9": {
+	font: {
+		fontSize: 32,
+		fontFamily: 'Segoe UI Light 8'
 	}
 }
