@@ -1,5 +1,5 @@
-function doClick(e) {
-    alert($.label.text);
-}
-
 $.index.open();
+
+$.text.addEventListener('return', function (_evt) {
+	console.log('return event');
+});
