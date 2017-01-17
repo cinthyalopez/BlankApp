@@ -1,5 +1,15 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
-	</Window>
+    <TabGroup id="tg" backgroundColor="black" >
+        <Tab id="tab1" title="Tab 1" icon="tab.png">
+            <Window id="win1" title="Tab 1">
+               <Label id="label1" color="#999">I am Window 1</Label>
+            </Window>
+        </Tab>
+        <Tab id="tab2" title="Tab 2" icon="tab.png">
+            <Window id="win2" title="Tab 2">
+                <Label id="label2" color="#999">I am Window 2</Label>
+            </Window>
+        </Tab>
+        <!-- Use the Require tag to include external Ti.UI.Tab views -->
+    </TabGroup>
 </Alloy>
