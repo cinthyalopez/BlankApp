@@ -12,42 +12,42 @@
 "#label1": {
 	font: {
 		fontSize: 32,
-		fontFamily: 'SegoeUI-Bold'
+		fontFamily: 'segoesc.ttf#Segoe Script 8'
 	}
 }
 
 "#label2": {
 	font: {
 		fontSize: 32,
-		fontFamily: 'SegoeUI-Italic'
+		fontFamily: 'segoeprb.ttf#Segoe Print 8'
 	}
 }
 
 "#label3": {
 	font: {
 		fontSize: 32,
-		fontFamily: 'SegoeUI-Light'
+		fontFamily: 'segoepr.ttf#Segoe Print 8'
 	}
 }
 
 "#label4": {
 	font: {
 		fontSize: 32,
-		fontFamily: 'segoeuib'
+		fontFamily: 'segoeuib.ttf#Segoe UI 8'
 	}
 }
 
 "#label5": {
 	font: {
 		fontSize: 32,
-		fontFamily: 'segoeuii'
+		fontFamily: 'segoeuii.ttf#Segoe UI 8'
 	}
 }
 
 "#label6": {
 	font: {
 		fontSize: 32,
-		fontFamily: 'segoeuil'
+		fontFamily: 'segoeuil.ttf#Segoe UI 8'
 	}
 }
 
