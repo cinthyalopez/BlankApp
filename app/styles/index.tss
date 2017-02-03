@@ -13,3 +13,16 @@
 		fontSize: 12
 	}
 }
+
+"#dummyView6": {
+	top: 0,
+	width: Ti.UI.FILL,
+	height: 100,
+	layout: 'horizontal',
+	backgroundColor: 'brown',
+	contentHeight: '100%',
+	contentWidth: 'auto',
+	horizontalWrap: false,
+	scrollType: true,
+	showHorizontalScrollIndicator: true
+}
