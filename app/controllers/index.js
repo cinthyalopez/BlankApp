@@ -51,7 +51,7 @@ var _response = {
 
 console.log('_response.results.length=' + _response.results.length);
 
-for (var i = 0; i <= _response.results.length; i++) {
+for (var i = 0; i < _response.results.length; i++) {
 	console.log(JSON.stringify(_response.results[i].name));
 }
 
