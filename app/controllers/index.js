@@ -2,23 +2,26 @@
 var args = $.args;
 
 var items = [
+	{ 
+		properties: {
+			height: 40,
+			title: 'First',
+			accessoryType: Ti.UI.LIST_ACCESSORY_TYPE_DISCLOSURE	
+		}
+	}, 
 	{
-		height: 40,
-		title: 'First',
-		accessoryType: Ti.UI.LIST_ACCESSORY_TYPE_DISCLOSURE,
-		color: 'cyan'
+		properties: {
+			height: 40,
+			title: 'Second',
+			accessoryType: Ti.UI.LIST_ACCESSORY_TYPE_DISCLOSURE
+		}
 	},
 	{
-		height: 40,
-		title: 'Second',
-		accessoryType: Ti.UI.LIST_ACCESSORY_TYPE_DISCLOSURE,
-		color: 'cyan'
-	},
-	{
-		height: 40,
-		title: 'Third',
-		accessoryType: Ti.UI.LIST_ACCESSORY_TYPE_DISCLOSURE,
-		color: 'cyan'
+		properties: {
+			height: 40,
+			title: 'Third',
+			accessoryType: Ti.UI.LIST_ACCESSORY_TYPE_DISCLOSURE
+		}
 	}
 ];
 
