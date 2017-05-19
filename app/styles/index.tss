@@ -3,7 +3,9 @@
 }
 
 "ListView": {
+	top: 0,
+	left: 0,
 	height: Ti.UI.SIZE,
-	width: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
 	backgroundColor: 'purple'
 }
