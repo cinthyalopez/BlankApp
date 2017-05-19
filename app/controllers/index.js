@@ -23,3 +23,5 @@ var items = [
 ];
 
 $.section.setItems(items);
+
+$.container.open();
