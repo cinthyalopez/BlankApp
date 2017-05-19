@@ -1,11 +1,16 @@
 "#container": {
 	backgroundColor:"white"
-}
+},
 
-"ListView": {
+"#wrapper": {
 	top: 0,
 	left: 0,
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+},
+
+"#list": {
 	height: Ti.UI.SIZE,
-	width: Ti.UI.FILL,
+	width: Ti.UI.SIZE,
 	backgroundColor: 'purple'
 }
