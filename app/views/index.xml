@@ -1,5 +1,10 @@
 <Alloy>
-	<Window id="window" class="container">
-		<Label id="label">Hello, World</Label>
-	</Window>
+	<!-- <Window id="window" class="container">
+		<View id="wrapper">
+			<ListView id="usersListView">
+				<SearchBar id="search" />
+				<ListSection id="section" />
+			</ListView>
+		</View>
+	</Window> -->
 </Alloy>
