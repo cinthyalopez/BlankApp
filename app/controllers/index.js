@@ -6,62 +6,12 @@ var listView = Ti.UI.createListView({
 var sections = [];
 
 var fruitSection = Ti.UI.createListSection({ headerTitle: 'Fruits'});
-var fruitDataSet = [
-    {properties: { title: 'Apple', color: 'black' }},
-    {properties: { title: 'Banana1', color: 'black' }},
-    {properties: { title: 'Banana2', color: 'black' }},
-    {properties: { title: 'Banana3', color: 'black' }},
-    {properties: { title: 'Banana4', color: 'black' }},
-    {properties: { title: 'Banana5', color: 'black' }},
-    {properties: { title: 'Banana6', color: 'black' }},
-    {properties: { title: 'Banana7', color: 'black' }},
-    {properties: { title: 'Banana8', color: 'black' }},
-    {properties: { title: 'Banana9', color: 'black' }},
-    {properties: { title: 'Banana10', color: 'black' }},
-    {properties: { title: 'Banana11', color: 'black' }},
-    {properties: { title: 'Banana12', color: 'black' }},
-    {properties: { title: 'Banana14', color: 'black' }},
-    {properties: { title: 'Banana15', color: 'black' }},
-    {properties: { title: 'Banana16', color: 'black' }},
-    {properties: { title: 'Banana17', color: 'black' }},
-    {properties: { title: 'Banana18', color: 'black' }},
-    {properties: { title: 'Banana19', color: 'black' }},
-    {properties: { title: 'Banana20', color: 'black' }},
-    {properties: { title: 'Banana21', color: 'black' }},
-    {properties: { title: 'Banana22', color: 'black' }},
-    {properties: { title: 'Banana23', color: 'black' }},
-    {properties: { title: 'Banana24', color: 'black' }},
-    {properties: { title: 'Banana25', color: 'black' }},
-    {properties: { title: 'Banana26', color: 'black' }},
-    {properties: { title: 'Banana27', color: 'black' }},
-    {properties: { title: 'Banana28', color: 'black' }},
-    {properties: { title: 'Banana29', color: 'black' }},
-    {properties: { title: 'Banana30', color: 'black' }},
-    {properties: { title: 'Banana31', color: 'black' }},
-    {properties: { title: 'Banana32', color: 'black' }},
-    {properties: { title: 'Banana33', color: 'black' }},
-    {properties: { title: 'Banana34', color: 'black' }},
-    {properties: { title: 'Banana35', color: 'black' }},
-    {properties: { title: 'Banana36', color: 'black' }},
-    {properties: { title: 'Banana37', color: 'black' }},
-    {properties: { title: 'Banana38', color: 'black' }},
-    {properties: { title: 'Banana39', color: 'black' }},
-    {properties: { title: 'Banana40', color: 'black' }},
-    {properties: { title: 'Banana41', color: 'black' }},
-    {properties: { title: 'Banana42', color: 'black' }},
-    {properties: { title: 'Banana43', color: 'black' }},
-    {properties: { title: 'Banana44', color: 'black' }},
-    {properties: { title: 'Banana45', color: 'black' }},
-    {properties: { title: 'Banana46', color: 'black' }},
-    {properties: { title: 'Banana47', color: 'black' }},
-    {properties: { title: 'Banana48', color: 'black' }},
-    {properties: { title: 'Banana49', color: 'black' }},
-    {properties: { title: 'Banana50', color: 'black' }},
-    {properties: { title: 'Banana51', color: 'black' }},
-    {properties: { title: 'Banana52', color: 'black' }},
-    {properties: { title: 'Banana53', color: 'black' }},
-    {properties: { title: 'Banana54', color: 'black' }}
-];
+var fruitDataSet = [];
+
+for (var i = 0; i < 200; i++) {
+    fruitDataSet.push({properties: { title: 'Banana' + i, color: 'black' }});
+}
+
 fruitSection.setItems(fruitDataSet);
 sections.push(fruitSection);
 
@@ -74,6 +24,18 @@ listView.sections = sections;
 
 listView.addEventListener('marker', function (_evt) {
 	console.log('Marker is visible!!!!');
+});
+
+listView.addEventListener('scrolling', function (_evt) {
+    doLog && console.log('scrolling - _evt: ' + JSON.stringify(_evt, null, '\t'));
+});
+
+listView.addEventListener('scrollstart', function (_evt) {
+    doLog && console.log('scrollstart -  _evt: ' + JSON.stringify(_evt, null, '\t'));
+});
+
+listView.addEventListener('scrollend', function (_evt) {
+    doLog && console.log('scrollend: - _evt ' + JSON.stringify(_evt, null, '\t'));
 });
 
 win.add(listView);
