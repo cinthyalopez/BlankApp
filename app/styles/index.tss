@@ -2,9 +2,55 @@
 	height: Ti.UI.FILL,
 	widht: Ti.UI.FILL,
 	backgroundColor:"white"
-}
-
-'#dummyView2': {
-	layout: 'vertical',
-	backgroundColor: 'green'
 },
+'#usersListView': {
+	height: Ti.UI.FILL,
+	widht: Ti.UI.FILL
+},
+'#userWrapper': {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	backgroundColor: 'pink'
+},
+'#usernameLabel': {
+	top: 30,
+	left: 15
+},
+'#userPictureImageView': {
+	top: 30,
+	right: 15,
+	height: 150,
+	width: 150
+},
+'#genderLabel': {
+	top: 60,
+	left: 15
+},
+'#streetLabel': {
+	top: 90,
+	left: 15
+},
+'#cityLabel': {
+	top: 120,
+	left: 15
+},
+'#stateLabel': {
+	top: 150,
+	left: 15
+},
+'#zipCodeLabel': {
+	top: 180,
+	left: 15
+},
+'#emailLabel': {
+	top: 210,
+	left: 15
+},
+'.userLabel': {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	color: 'white',
+	font: {
+		fontSize: 26
+	}
+}

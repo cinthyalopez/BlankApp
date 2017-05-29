@@ -1,5 +1,21 @@
 <Alloy>
 	<Window class="container">
-		<View id="dummyView2"/>
+		<ListView id="usersListView">
+			<Templates>
+				<ItemTemplate id="userListTemplate" name="userListTemplate">
+					<View id="userWrapper">
+						<Label id="usernameLabel" class="userLabel" bindId="username" />
+						<ImageView id="userPictureImageView" bindId="userPicture" />
+						<Label id="genderLabel" class="userLabel" bindId="gender" />
+						<Label id="streetLabel" class="userLabel" bindId="street" />
+						<Label id="cityLabel" class="userLabel" bindId="city" />
+						<Label id="stateLabel" class="userLabel" bindId="state" />
+						<Label id="zipCodeLabel" class="userLabel" bindId="zipCode" />
+						<Label id="emailLabel" class="userLabel" bindId="email" />
+					</View>
+				</ItemTemplate>
+			</Templates>
+			<ListSection id="section" />
+		</ListView>
 	</Window>
 </Alloy>
