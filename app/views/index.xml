@@ -1,5 +1,53 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
-	</Window>
+	<!-- <Window class="container">
+		<View id="wrapper">
+			<View id="upperButtons" class="buttonWrapper">
+				<Button id="section1Button" class="button" />				
+				<Button id="section2Button" class="button" />
+				<Button id="section3Button" class="button" />				
+			</View>
+			<ListView id="usersListView">
+				<Templates>
+					<ItemTemplate id="userListTemplate" name="userListTemplate">
+						<View id="userWrapper">
+							<Label id="usernameLabel" class="userLabel" bindId="username" />
+							<ImageView id="userPictureImageView" bindId="userPicture" />
+							<Label id="genderLabel" class="userLabel" bindId="gender" />
+							<Label id="streetLabel" class="userLabel" bindId="street" />
+							<Label id="cityLabel" class="userLabel" bindId="city" />
+							<Label id="stateLabel" class="userLabel" bindId="state" />
+							<Label id="zipCodeLabel" class="userLabel" bindId="zipCode" />
+							<Label id="emailLabel" class="userLabel" bindId="email" />
+						</View>
+					</ItemTemplate>
+				</Templates>
+				<ListSection id="firstSection">
+					<HeaderView>
+		                <View backgroundColor="#DDD" height="Ti.UI.SIZE">
+		                    <Label class="headerLabel">A</Label>
+		                </View>
+		            </HeaderView>
+				</ListSection>
+				<ListSection id="secondSection">
+					<HeaderView>
+		                <View backgroundColor="#DDD" height="Ti.UI.SIZE">
+		                    <Label class="headerLabel">B</Label>
+		                </View>
+		            </HeaderView>
+				</ListSection>
+				<ListSection id="thirdSection">
+					<HeaderView>
+		                <View backgroundColor="#DDD" height="Ti.UI.SIZE">
+		                    <Label class="headerLabel">C</Label>
+		                </View>
+		            </HeaderView>
+				</ListSection>
+			</ListView>
+			<View id="lowerButtons" class="buttonWrapper">
+				<Button id="section1Button2" class="button" />				
+				<Button id="section2Button2" class="button" />
+				<Button id="section3Button2" class="button" />				
+			</View>
+		</View>
+	</Window> -->
 </Alloy>

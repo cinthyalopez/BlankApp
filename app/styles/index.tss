@@ -1,15 +1,99 @@
-".container": {
-	backgroundColor:"white"
-}
-
-"Label": {
-	width: Ti.UI.SIZE,
+'#wrapper':{
+	top: 0,
+	left: 0,
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+},
+'#upperButtons': {
+	top: 0,
+	left: 0
+},
+'#section1Button': {
+	title: 'Go to Section 1'
+},
+'#section2Button': {
+	title: 'Go to Section 2'
+},
+'#section3Button': {
+	title: 'Go to Section 3'
+},
+'#usersListView' : {
+	top: 66,
+	bottom: 66,
+	width: Ti.UI.FILL,
+	backgroundColor: 'purple'  
+},
+'#userWrapper': {
 	height: Ti.UI.SIZE,
-	color: "#000"
-}
-
-"#label": {
+	width: Ti.UI.FILL,
+	backgroundColor: 'pink'
+},
+'#usernameLabel': {
+	top: 30,
+	left: 15
+},
+'#userPictureImageView': {
+	top: 30,
+	right: 15,
+	height: 150,
+	width: 150
+},
+'#genderLabel': {
+	top: 60,
+	left: 15
+},
+'#streetLabel': {
+	top: 90,
+	left: 15
+},
+'#cityLabel': {
+	top: 120,
+	left: 15
+},
+'#stateLabel': {
+	top: 150,
+	left: 15
+},
+'#zipCodeLabel': {
+	top: 180,
+	left: 15
+},
+'#emailLabel': {
+	top: 210,
+	left: 15
+},
+'#lowerButtons': {
+	bottom: 0
+},
+'#section1Button2': {
+	title: 'Go to Section 1'
+},
+'#section2Button2': {
+	title: 'Go to Section 2'
+},
+'#section3Button2': {
+	title: 'Go to Section 3'
+},
+'.userLabel': {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	color: 'white',
 	font: {
-		fontSize: 12
+		fontSize: 26
 	}
+},
+'.headerLabel': {
+	color: '#000',
+	font : {
+		fontSize : 30
+	}
+},
+'.buttonWrapper': {
+	height: 65,
+	width: Ti.UI.FILL,
+	layout: 'horizontal'
+},
+'.button': {
+	height: 45,
+	width: 200
 }
