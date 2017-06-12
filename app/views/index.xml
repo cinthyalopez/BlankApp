@@ -1,5 +1,10 @@
 <Alloy>
 	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+		<View id="leftWrapper">
+			<Label id="label" /> 	
+		</View>
+		<View id="rightWrapper">
+			<Label id="label2" />
+		</View>
 	</Window>
 </Alloy>
