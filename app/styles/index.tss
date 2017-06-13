@@ -1,15 +1,16 @@
 ".container": {
 	backgroundColor:"white"
 }
-
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
+// Having a Label with a left value of 0, a text value set and that it is contained in a View whose 
+// width is fixed (i.e. NOT Ti.UI.SIZE nor Ti.UI.FILL), will make the error to pop when the app launches.
+"#wrapper": {
+	// If this value gets changed to Ti.UI.SIZE or Ti.UI.FILL (or if the line gets commented out) 
+	// the error will go away
+	width: 500
 }
 
 "#label": {
-	font: {
-		fontSize: 12
-	}
+	// If line 14 gets commented out, the error will go away
+	left: 0,
+	text: 'Picker (Alloy built, 1 column, width = Ti.UI.SIZE, height = Ti.UI.SIZE)'
 }
