@@ -2,14 +2,16 @@
 	backgroundColor:"white"
 }
 
-"Label": {
-	width: Ti.UI.SIZE,
+'#field': {
 	height: Ti.UI.SIZE,
-	color: "#000"
+	width: 350,
+	hintText: 'Input'
 }
 
-"#label": {
-	font: {
-		fontSize: 12
-	}
+'#magnifyingGlassIcon': {
+	top: 0,
+	right: 0,
+	height: 10,
+	width: 10,
+	backgroundColor: 'red' 
 }
