@@ -52,6 +52,7 @@
 		<theme>default</theme>
 	</mobileweb>
 	<modules>
+		<module platform="windows">hyperloop</module>
 	</modules>
 	<deployment-targets>
 		<target device="android">false</target>
@@ -59,6 +60,8 @@
 		<target device="windows">true</target>
 	</deployment-targets>
 	<sdk-version>6.1.0.GA</sdk-version>
-<plugins><plugin version="1.0">ti.alloy</plugin>
+<plugins>
+	<plugin version="1.0">ti.alloy</plugin>
+	<plugin>hyperloop</plugin>
 </plugins>
 </ti:app>
