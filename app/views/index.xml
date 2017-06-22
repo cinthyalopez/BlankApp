@@ -1,7 +1,7 @@
 <Alloy>
-	<Window class="container">
-		<TextField id="field">
+	<Window id="container">
+		<!-- <TextField id="field">
 			<View id="magnifyingGlassIcon" />
-		</TextField>
+		</TextField> -->
 	</Window>
 </Alloy>
