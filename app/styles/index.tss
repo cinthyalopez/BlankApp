@@ -2,14 +2,14 @@
 	backgroundColor:"white"
 }
 
-"Label": {
+"Button": {
 	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
+	height: Ti.UI.SIZE
 }
 
-"#label": {
-	font: {
-		fontSize: 12
-	}
+"#button": {
+	backgroundColor: 'red',
+	backgroundSelectedColor: 'blue',
+	color: 'yellow',
+	selectedColor: 'red'
 }
