@@ -1,15 +1,128 @@
 ".container": {
-	backgroundColor:"white"
+	backgroundColor:"black"
 }
 
-"Label": {
-	width: Ti.UI.SIZE,
+'#imgView1': {
+	top: 200,
+	left: 100,
 	height: Ti.UI.SIZE,
-	color: "#000"
+	width: Ti.UI.SIZE,
+	image: 'ic_agreement_approved@1x.png',
+	backgroundColor: 'red'
+},
+'#regularView1': {
+	top: 200,
+	left: 200,
+	height: 64,
+	width: 64,
+	backgroundImage: 'ic_agreement_approved@1x.png',
+	backgroundColor: 'yellow'
+},
+'#sampleButton1': {
+	top: 200,
+	left: 300,
+	height: 64,
+	width: 64,
+	backgroundImage: 'ic_agreement_approved@1x.png',
+	backgroundColor: 'blue'
 }
 
-"#label": {
-	font: {
-		fontSize: 12
-	}
+'#imgView2': {
+	top: 300,
+	left: 100,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	image: 'ic_pricing_started.png',
+	backgroundColor: 'red'
+},
+'#regularView2': {
+	top: 300,
+	left: 200,
+	height: 64,
+	width: 64,
+	backgroundImage: 'ic_pricing_started.png',
+	backgroundColor: 'yellow'
+},
+'#sampleButton2': {
+	top: 300,
+	left: 300,
+	height: 64,
+	width: 64,
+	backgroundImage: 'ic_pricing_started.png',
+	backgroundColor: 'blue'
+},
+
+'#imgView3': {
+	top: 400,
+	left: 100,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	image: 'ic_agreement_signed.png',
+	backgroundColor: 'red'
+},
+'#regularView3': {
+	top: 400,
+	left: 200,
+	height: 64,
+	width: 64,
+	backgroundImage: 'ic_agreement_signed.png',
+	backgroundColor: 'yellow'
+},
+'#sampleButton3': {
+	top: 400,
+	left: 300,
+	height: 64,
+	width: 64,
+	backgroundImage: 'ic_agreement_signed.png',
+	backgroundColor: 'blue'
+},
+
+'#imgView4': {
+	top: 500,
+	left: 100,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	image: 'ic_installed.png',
+	backgroundColor: 'red'
+},
+'#regularView4': {
+	top: 500,
+	left: 200,
+	height: 64,
+	width: 64,
+	backgroundImage: 'ic_installed.png',
+	backgroundColor: 'yellow'
+},
+'#sampleButton4': {
+	top: 500,
+	left: 300,
+	height: 64,
+	width: 64,
+	backgroundImage: 'ic_installed.png',
+	backgroundColor: 'blue'
+},
+
+'#imgView5': {
+	top: 600,
+	left: 100,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	image: 'ic_connection.png',
+	backgroundColor: 'red'
+},
+'#regularView5': {
+	top: 600,
+	left: 200,
+	height: 32,
+	width: 32,
+	backgroundImage: 'ic_connection.png',
+	backgroundColor: 'yellow'
+},
+'#sampleButton5': {
+	top: 600,
+	left: 300,
+	height: 32,
+	width: 32,
+	backgroundImage: 'ic_connection.png',
+	backgroundColor: 'blue'
 }

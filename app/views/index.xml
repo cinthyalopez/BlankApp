@@ -1,5 +1,24 @@
 <Alloy>
 	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+		<ImageView id="imgView1" />
+		<!-- <View id="regularView1" /> -->
+		<Button id="sampleButton1" />
+		
+		<ImageView id="imgView2" />
+		<!-- <View id="regularView2" /> -->
+		<Button id="sampleButton2" />
+		
+		<ImageView id="imgView3" />
+		<!-- <View id="regularView3" /> -->
+		<Button id="sampleButton3" />
+		
+		<ImageView id="imgView4" />
+		<!-- <View id="regularView4" /> -->
+		<Button id="sampleButton4" />
+		
+		<ImageView id="imgView5" />
+		<!-- <View id="regularView5" /> -->
+		<Button id="sampleButton5" />
+		
 	</Window>
 </Alloy>
