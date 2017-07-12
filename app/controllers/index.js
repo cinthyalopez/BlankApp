@@ -10,9 +10,6 @@ var search = Titanium.UI.createSearchBar({
 search.addEventListener('blur', function (_evt) {
 	console.log('blur event fired!');
 });
-search.addEventListener('bookmark', function (_evt) {
-	console.log('bookmark event fired!');
-});
 search.addEventListener('cancel', function (_evt) {
 	console.log('cancel event fired!');
 });
