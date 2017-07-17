@@ -1,5 +1,9 @@
-function doClick(e) {
-    alert($.label.text);
-}
+var search = Titanium.UI.createSearchBar({
+    width: 350,
+    height: 143,
+    showCancel: false,
+    top: 0
+});
 
-$.index.open();
+$.container.add(search);
+$.container.open();
