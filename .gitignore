@@ -12,3 +12,5 @@ Thumbs.db
 *.pfx
 *.pvk
 dist/
+/i18n
+/platfotm
