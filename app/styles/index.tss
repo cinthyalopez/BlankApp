@@ -1,6 +1,12 @@
 ".container": {
 	backgroundColor:"white"
 },
+"#someView": {
+	top: 200,
+	height: 600,
+	width: 600,
+	backgroundColor: 'blue'
+},
 "#touchEnabledTrueButton": {
 	top: 50,
 	height: 35,

@@ -1,6 +1,8 @@
 <Alloy>
 	<Window class="container">
-		<Button id="touchEnabledTrueButton" />
-		<Button id="touchEnabledFalseButton" />
+		<View id="someView">
+			<Button id="touchEnabledTrueButton" />
+			<Button id="touchEnabledFalseButton" />
+		</View>
 	</Window>
 </Alloy>
