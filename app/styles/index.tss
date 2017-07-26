@@ -1,4 +1,4 @@
-".container": {
+"#container": {
 	backgroundColor:"white"
 }
 
@@ -12,4 +12,29 @@
 	font: {
 		fontSize: 12
 	}
+}
+
+'#wrapper': {
+  height: 48,
+  width: Ti.UI.SIZE,
+  backgroundColor: 'purple'
+},
+'#square': {
+  left: 0,
+  height: 30,
+  width: 30,
+  // backgroundColor: 'blue',
+  backgroundColorChecked: 'red',
+  backgroundColorUnchecked: 'blue',
+  backgroundImageChecked: '',
+  backgroundImageUnchecked: '',
+  touchEnabled: false 
+},
+'#text': {
+  left: 42,
+  height: Ti.UI.FILL,
+  width: Ti.UI.SIZE,
+  backgroundColor: 'pink',
+  text: 'This is some text super super duper mega large text yeeeeeeyyyy!!',
+  touchEnabled: false
 }

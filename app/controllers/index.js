@@ -1,5 +1,10 @@
-function doClick(e) {
-    alert($.label.text);
+
+var value = true;
+	
+if (value) {
+	$.square.backgroundColor = $.square.backgroundColorChecked;
+} else {
+	$.square.backgroundColor = $.square.backgroundColorUnchecked;
 }
 
-$.index.open();
+$.container.open();
