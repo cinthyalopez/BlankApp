@@ -1,9 +1,9 @@
 function clickAlert(_evt) {
-    alert('click!');
+    alert(_evt.source.id);
 }
 
-$.touchEnabledTrueButton.addEventListener('click', clickAlert);
-$.touchEnabledFalseButton.addEventListener('click', clickAlert);
+$.someView.addEventListener('click', clickAlert);
+$.someView.addEventListener('click', clickAlert);
 
 
 $.index.open();
