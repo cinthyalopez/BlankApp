@@ -13,4 +13,5 @@ Thumbs.db
 *.pvk
 dist/
 /i18n
-/platfotm
+/platform
+/plugins
