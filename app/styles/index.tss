@@ -1,13 +1,7 @@
-".container": {
+"#container": {
 	backgroundColor:"white"
 },
-"#someView": {
-	top: 200,
-	height: 600,
-	width: 600,
-	backgroundColor: 'blue'
-},
-"#touchEnabledTrueButton": {
+"#touchEnabledTrueView": {
 	top: 50,
 	height: 35,
 	width: 250,
@@ -15,7 +9,7 @@
 	backgroundColor: 'red',
 	touchEnabled: true
 },
-"#touchEnabledFalseButton": {
+"#touchEnabledFalseView": {
 	top: 100,
 	height: 35,
 	width: 250,
