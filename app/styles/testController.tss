@@ -1,0 +1,15 @@
+'#modal': {
+	top: 0,
+	left: 0,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	backgroundColor: 'white'
+},
+"#touchEnabledFalseButton": {
+	top: 100,
+	height: 35,
+	width: 250,
+	title: 'Touch Enabled False',
+	backgroundColor: 'red',
+	touchEnabled: false
+}

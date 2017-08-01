@@ -1,5 +1,6 @@
-function doClick(e) {
-    alert($.label.text);
-}
 
-$.index.open();
+var testController = Alloy.createController('testController');
+
+$.mainContainer.add(testController.getView());
+
+$.mainContainer.open();

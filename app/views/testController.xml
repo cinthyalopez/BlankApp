@@ -1,0 +1,5 @@
+<Alloy>
+	<View id="modal">
+		<Button id="touchEnabledFalseButton" />
+	</View>
+</Alloy>
