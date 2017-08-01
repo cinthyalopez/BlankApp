@@ -8,3 +8,10 @@ tmp
 .project
 .settings
 Thumbs.db
+*.cer
+*.pfx
+*.pvk
+dist/
+/i18n
+/platform
+/plugins
