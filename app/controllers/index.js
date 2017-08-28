@@ -5,4 +5,4 @@ function openTiWindow(_evt) {
     window2.open({ fullscreen: true });
 }
 
-$.index.open({ fullscreen: true });
+$.container.open({ fullscreen: true });

@@ -1,5 +1,5 @@
 <Alloy>
-	<Window class="container">
+	<Window id="container">
 		<Label id="label" onClick="openTiWindow">Ti Window</Label>
 	</Window>
 </Alloy>
