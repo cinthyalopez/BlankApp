@@ -1179,17 +1179,17 @@ usersListView.sections = sections;
 // Add event handlers & listeners
 function goToSection1(_evt) {
 	console.log('- goToSection1');
-	usersListView.scrollToItem(0, 0);
+	usersListView.scrollToItem(0, 0, { position: Ti.UI.Windows.ListViewScrollPosition.TOP });
 }
 
 function goToSection2(_evt) {
 	console.log('- goToSection2');
-	usersListView.scrollToItem(1, 0);
+	usersListView.scrollToItem(1, 0, { position: Ti.UI.Windows.ListViewScrollPosition.TOP });
 }
 
 function goToSection3(_evt) {
 	console.log('- goToSection3');
-	usersListView.scrollToItem(2, 0);
+	usersListView.scrollToItem(2, 0, { position: Ti.UI.Windows.ListViewScrollPosition.TOP });
 }
 
 section1Button.addEventListener('click', goToSection1);
