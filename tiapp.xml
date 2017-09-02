@@ -53,7 +53,9 @@
     </splash>
     <theme>default</theme>
   </mobileweb>
-  <modules></modules>
+  <modules>
+	<module platform="windows">ti.paint</module>
+  </modules>
   <deployment-targets>
     <target device="android">false</target>
     <target device="mobileweb">false</target>
