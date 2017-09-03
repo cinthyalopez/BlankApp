@@ -3,7 +3,5 @@
 }
 
 "#button": {
-	backgroundColor: 'red',
-	borderWidth: 3,
-	borderColor: 'blue'
+	
 }
