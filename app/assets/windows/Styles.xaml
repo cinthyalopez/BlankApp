@@ -1,0 +1,25 @@
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ResourceDictionary.ThemeDictionaries>
+        <ResourceDictionary x:Key="Light">
+            <SolidColorBrush x:Key="ButtonBackground" Color="Pink"/>
+            <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="Pink"/>
+            <SolidColorBrush x:Key="ButtonBackgroundPressed" Color="Pink"/>
+            <SolidColorBrush x:Key="ButtonBackgroundDisabled" Color="Pink"/>
+            <SolidColorBrush x:Key="ButtonForeground" Color="Red"/>
+            <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="Red"/>
+            <SolidColorBrush x:Key="ButtonForegroundPressed" Color="Red"/>
+            <SolidColorBrush x:Key="ButtonForegroundDisabled" Color="Red"/>
+            <SolidColorBrush x:Key="ButtonBorderBrush" Color="Blue"/>
+            <SolidColorBrush x:Key="ButtonBorderBrushPointerOver" Color="Blue"/>
+            <SolidColorBrush x:Key="ButtonBorderBrushPressed" Color="Blue"/>
+            <SolidColorBrush x:Key="ButtonBorderBrushDisabled" Color="Blue"/>
+        </ResourceDictionary>
+    </ResourceDictionary.ThemeDictionaries>
+
+    <Style x:Key="ButtonStyle" TargetType="Button">
+        <Setter Property="BorderThickness" Value="2" />
+    </Style>
+</ResourceDictionary>
