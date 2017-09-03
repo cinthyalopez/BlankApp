@@ -3,6 +3,7 @@
 		<View id="wrapper">
 		<View id="square" />
 		<Label id="text" />
+		<Button id="button" />
 	</View>
 	</Window>
 </Alloy>

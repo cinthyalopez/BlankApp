@@ -15,26 +15,37 @@
 }
 
 '#wrapper': {
-  height: 148,
+  height: Ti.UI.SIZE,
   width: Ti.UI.SIZE,
   backgroundColor: 'purple'
 },
 '#square': {
   left: 0,
-  height: 30,
-  width: 30,
+  height: 100,
+  width: 100,
   // backgroundColor: 'blue',
   backgroundColorChecked: 'red',
   backgroundColorUnchecked: 'blue',
-  backgroundImageChecked: '',
-  backgroundImageUnchecked: '',
+  backgroundImageChecked: 'appicon.png',
+  backgroundImageUnchecked: 'appicon.png',
   touchEnabled: false 
 },
 '#text': {
   left: 42,
-  height: Ti.UI.FILL,
+  height: Ti.UI.SIZE,
   width: Ti.UI.SIZE,
   backgroundColor: 'pink',
+  // color: 'black',
+  colorChecked: 'blue',
+  colorUnchecked: 'red',
   text: 'This is some text super super duper mega large text yeeeeeeyyyy!!',
   touchEnabled: false
+},
+'#button': {
+	left: 0,
+	bottom: 0,
+	height: 50,
+	width: 130,
+	title: 'Button!',
+	backgroundColor: 'red'
 }
