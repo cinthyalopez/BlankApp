@@ -1,5 +1,8 @@
 <Alloy>
 	<Window id="win">
+		<Button id="removeAllChildrenButton" />
+		<Button id="addScrollButton" />
+		<Button id="addViewButton" />
 		<View id="container1">
 			<ScrollView id="scrollView">	
 			</ScrollView>

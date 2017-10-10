@@ -1,16 +1,41 @@
 '#win': {
 	backgroundColor:"white"
 },
+'#removeAllChildrenButton': {
+	top: 50,
+	left: 200,
+	height: 35,
+	width: 250,
+	backgroundColor: 'gray',
+	title: 'Remove All Children'
+},
+'#addScrollButton': {
+	top: 50,
+	left: 400,
+	height: 35,
+	width: 250,
+	backgroundColor: 'gray',
+	title: 'Add Scroll View'
+},
+'#addViewButton': {
+	top: 50,
+	left: 800,
+	height: 35,
+	width: 250,
+	backgroundColor: 'gray',
+	title: 'Add View'
+},
 '#container1': {
-	top: 10,
+	top: 300,
 	left: 10,
 	right: 10,
 	bottom: 10,
 	backgroundColor: 'red'
 },
 '#scrollView': {
+	top: 200,
 	height: 350,
-	width: 1000,
+	width: 1800,
 	backgroundColor: 'yellow',
 	layout: 'horizontal'
 }
