@@ -1,9 +1,9 @@
 '#siteTab': {
-	top: 0,
+	top: 500,
 	left: 0,
 	width: 414,
 	height: 95,
-	backgroundColor: '#fff',
+	backgroundColor: '#0ff',
 	borderColor: '#ccc',
 	borderWidth: 1
 },
@@ -12,5 +12,5 @@
 	right: 0,
 	height: 36,
 	width: 72,
-	backgroundColor: 'red'
+	backgroundColor: 'purple'
 }
