@@ -53,6 +53,16 @@
     </splash>
     <theme>default</theme>
   </mobileweb>
+  <windows>
+		<manifest>
+			<SDKReferences>
+				<SDKReference Include="Microsoft.VCLibs.120, Version=14.0" />
+			</SDKReferences>
+			<Dependencies>
+				<PackageDependency Name="Microsoft.VCLibs.120.00.Universal" MinVersion="12.0.30501.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+			</Dependencies>
+		</manifest>
+	</windows>
   <modules></modules>
   <deployment-targets>
     <target device="android">false</target>
