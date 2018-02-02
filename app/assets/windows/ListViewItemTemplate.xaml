@@ -1,0 +1,32 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <DataTemplate x:Key="defaultItemTemplate">
+        <Grid Height="60" Margin="6">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Border Background="{StaticResource ListViewItemPlaceholderBackgroundThemeBrush}" Width="54" Height="54">
+                <Image Source="{Binding Image}" Stretch="UniformToFill"/>
+            </Border>
+            <StackPanel Grid.Column="1" VerticalAlignment="Top" Margin="10,0,0,0">
+                <TextBlock Text="{Binding Title}" TextWrapping="NoWrap"/>
+                <TextBlock Text="{Binding Subtitle}" TextWrapping="NoWrap"/>
+                <TextBlock Text="{Binding Description}" MaxHeight="54"/>
+            </StackPanel>
+        </Grid>
+    </DataTemplate>
+
+    <GroupStyle x:Key="defaultItemTemplateGroupStyle">
+        <GroupStyle.HeaderTemplate>
+            <DataTemplate>
+                <TextBlock
+                    Text="{Binding Title}"
+                    FontSize="40" />
+            </DataTemplate>
+        </GroupStyle.HeaderTemplate>
+    </GroupStyle>
+
+</ResourceDictionary>
