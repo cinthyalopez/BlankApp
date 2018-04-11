@@ -27,10 +27,15 @@ for (var i = 0; i < 20; i++) {
                 title: 'Hilton Netherland Plaza at Chicago Downtown ' + i, 
                 subtitle: 'Summer Uniforms 2017, rental uniforms ' + i, 
                 description: '$1,2345.00',
-                image: 'Square150x150Logo.png' ,
-                data0: 'data0',
-                data1: 'data1',
-                data2: 'data2'
+                data0: '4/12/17',
+                data1: 'NEW OPPORTUNITY',
+                data2: 'Contact: John Smith',
+                data3: 'Phone: (123) 456-7890',
+                data4: 'Email: jsmith@hilton.com',
+                data5: 'Days in Stage: 12',
+                image: 'Square150x150Logo.png',
+                data6: 'Square150x150Logo.png',
+                data7: 'Square150x150Logo.png'
             } 
         });
     items1.push(

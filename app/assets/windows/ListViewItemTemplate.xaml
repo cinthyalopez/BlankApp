@@ -3,24 +3,48 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <DataTemplate x:Key="defaultItemTemplate">
-        <Grid Height="260" Margin="6">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-            </Grid.ColumnDefinitions>
+        <Grid Height="260" Margin="0,0,0,0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
-            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10,0,0,0">
-                <TextBlock Text="{Binding Title}" Width="336" Height="60" />
-                <TextBlock Text="{Binding Subtitle}" />
-                <TextBlock Text="{Binding Description}" MaxHeight="54"/>
-            </StackPanel>
-            <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Top" Margin="10,0,0,0">
-                <TextBlock Text="{Binding Data0}" />
-                <TextBlock Text="{Binding Data1}" />
-                <TextBlock Text="{Binding Data2}" MaxHeight="54"/>
-            </StackPanel>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="336" />
+                <ColumnDefinition Width="312" />
+                <ColumnDefinition Width="188" />
+                <ColumnDefinition Width="164" />
+                <ColumnDefinition Width="252" />
+                <ColumnDefinition Width="52" />
+                <ColumnDefinition Width="52" />
+                <ColumnDefinition Width="68" />
+            </Grid.ColumnDefinitions>
+            <Border Grid.Row="0" Grid.Column="0" Background="#9bcbeb" Height="Auto" Width="Auto">
+                <TextBlock Text="{Binding Title}" Margin="0,0,0,0" />
+            </Border>
+            <Border Grid.Row="0" Grid.Column="1" Background="#ff0000" Height="Auto" Width="Auto">
+                <TextBlock Text="{Binding Subtitle}" Margin="0,0,0,0" />
+            </Border>
+            <Border Grid.Row="0" Grid.Column="2" Background="#00ff00" Height="Auto" Width="Auto">
+                <TextBlock Text="{Binding Description}" Margin="0,0,0,0" />
+            </Border>
+            <Border Grid.Row="0" Grid.Column="3" Background="#0000ff" Height="Auto" Width="Auto">
+                <TextBlock Text="{Binding Data0}" Margin="0,0,0,0" />
+            </Border>
+            <Border Grid.Row="0" Grid.Column="4" Background="#9bcbeb" Height="32" Width="234" Padding="10" CornerRadius="16">
+                <TextBlock Text="{Binding Data1}" Margin="0,0,0,0" Foreground="#ffffff" />
+            </Border>
+            <Border Grid.Row="0" Grid.Column="5" Background="#9bcbeb" Height="Auto" Width="Auto">
+                <Image Source="{Binding Image}" />
+            </Border>
+            <Border Grid.Row="0" Grid.Column="6" Background="#9bcbeb" Height="Auto" Width="Auto">
+                <Image Source="{Binding Data6}" />
+            </Border>
+            <Border Grid.Row="0" Grid.Column="7" Background="#9bcbeb" Height="Auto" Width="Auto">
+                <Image Source="{Binding Data7}" />
+            </Border>
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="{Binding Data2}" Margin="16,0,0,0" />
+            <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding Data3}" Margin="16,0,0,0" />
+            <TextBlock Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" Text="{Binding Data5}" Margin="16,0,0,0" />
         </Grid>
     </DataTemplate>
 
