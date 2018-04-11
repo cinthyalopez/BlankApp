@@ -3,23 +3,28 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <DataTemplate x:Key="defaultItemTemplate">
-        <Grid Height="60" Margin="6">
+        <Grid Height="260" Margin="6">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Border Background="{StaticResource ListViewItemPlaceholderBackgroundThemeBrush}" Width="54" Height="54">
-                <Image Source="{Binding Image}" Stretch="UniformToFill"/>
-            </Border>
-            <StackPanel Grid.Column="1" VerticalAlignment="Top" Margin="10,0,0,0">
-                <TextBlock Text="{Binding Title}" TextWrapping="NoWrap"/>
-                <TextBlock Text="{Binding Subtitle}" TextWrapping="NoWrap"/>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10,0,0,0">
+                <TextBlock Text="{Binding Title}" Width="336" Height="60" />
+                <TextBlock Text="{Binding Subtitle}" />
                 <TextBlock Text="{Binding Description}" MaxHeight="54"/>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Top" Margin="10,0,0,0">
+                <TextBlock Text="{Binding Data0}" />
+                <TextBlock Text="{Binding Data1}" />
+                <TextBlock Text="{Binding Data2}" MaxHeight="54"/>
             </StackPanel>
         </Grid>
     </DataTemplate>
 
-    <GroupStyle x:Key="defaultItemTemplateGroupStyle">
+    <!-- <GroupStyle x:Key="defaultItemTemplateGroupStyle">
         <GroupStyle.HeaderTemplate>
             <DataTemplate>
                 <TextBlock
@@ -27,6 +32,6 @@
                     FontSize="40" />
             </DataTemplate>
         </GroupStyle.HeaderTemplate>
-    </GroupStyle>
+    </GroupStyle> -->
 
 </ResourceDictionary>

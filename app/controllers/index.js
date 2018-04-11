@@ -21,9 +21,36 @@ var items0 = [],
     items2 = [];
 
 for (var i = 0; i < 20; i++) {
-    items0.push({ properties: { title: 'Fruit ' + i, image: 'Square150x150Logo.png' } });
-    items1.push({ properties: { title: 'Vegetable ' + i, image: 'Square150x150Logo.png' } });
-    items2.push({ properties: { title: 'Meat ' + i, image: 'Square150x150Logo.png' } });
+    items0.push(
+        { 
+            properties: { 
+                title: 'Hilton Netherland Plaza at Chicago Downtown ' + i, 
+                subtitle: 'Summer Uniforms 2017, rental uniforms ' + i, 
+                description: '$1,2345.00',
+                image: 'Square150x150Logo.png' ,
+                data0: 'data0',
+                data1: 'data1',
+                data2: 'data2'
+            } 
+        });
+    items1.push(
+        { 
+            properties: { 
+                title: 'Vegetable ' + i, 
+                subtitle: 'Subtitle ' + i, 
+                description: 'THis is a very very very loooooooooooooooong description. It might get longer in the future. We do not know.',
+                image: 'Square150x150Logo.png' 
+            } 
+        });
+    items2.push(
+        { 
+            properties: { 
+                title: 'Meat ' + i, 
+                subtitle: 'Subtitle ' + i, 
+                description: 'THis is a very very very loooooooooooooooong description. It might get longer in the future. We do not know.',
+                image: 'Square150x150Logo.png' 
+            } 
+        });
 }
 
 var fruitSection = Ti.UI.createListSection({
