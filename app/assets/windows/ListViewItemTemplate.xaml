@@ -3,7 +3,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <DataTemplate x:Key="defaultItemTemplate">
-        <Grid Height="260" Margin="0,0,0,0" HorizontalAlignment="Stretch">
+        <Grid Height="Auto" Margin="0,0,0,0" HorizontalAlignment="Stretch">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="Auto" />
@@ -19,33 +19,55 @@
                 <ColumnDefinition Width="52" />
                 <ColumnDefinition Width="68" />
             </Grid.ColumnDefinitions>
+            <!-- Name -->
             <Border Grid.Row="0" Grid.Column="0" Background="#9bcbeb" Height="60" Width="310" VerticalAlignment="Top">
-                <TextBlock Text="{Binding Title}" Height="60" Width="310" VerticalAlignment="Top" />
+                <TextBlock Text="{Binding Title}" Height="60" Width="310" VerticalAlignment="Top" TextWrapping="Wrap" />
             </Border>
+            <!-- Address -->
             <Border Grid.Row="0" Grid.Column="1" Background="#ff0000" Height="60" Width="292" VerticalAlignment="Top">
-                <TextBlock Text="{Binding Subtitle}" Height="60" Width="292" VerticalAlignment="Top" />
+                <TextBlock Text="{Binding Subtitle}" Height="60" Width="292" VerticalAlignment="Top" TextWrapping="Wrap" />
             </Border>
+            <!-- Money $$$ -->
             <Border Grid.Row="0" Grid.Column="2" Background="#00ff00" Height="30" Width="168" VerticalAlignment="Top">
-                <TextBlock Text="{Binding Description}" Height="30" Width="168" VerticalAlignment="Top" />
+                <TextBlock Text="{Binding Description}" Height="30" Width="168" VerticalAlignment="Top" TextWrapping="Wrap" />
             </Border>
+            <!-- Date -->
             <Border Grid.Row="0" Grid.Column="3" Background="#0000ff" Height="30" Width="140" VerticalAlignment="Top">
-                <TextBlock Text="{Binding Data0}" Height="30" Width="140" VerticalAlignment="Top" />
+                <TextBlock Text="{Binding Data0}" Height="30" Width="140" VerticalAlignment="Top" TextWrapping="Wrap" />
             </Border>
+            <!-- Status -->
             <Border Grid.Row="0" Grid.Column="4" Background="#9bcbeb" Height="35" Width="234" CornerRadius="16" VerticalAlignment="Top">
                 <TextBlock Text="{Binding Data1}" Height="Auto" Width="Auto" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#ffffff" />
             </Border>
+            <!-- Image1 -->
             <Border Grid.Row="0" Grid.Column="5" Background="#9bcbeb" Height="Auto" Width="Auto">
                 <Image Source="{Binding Image}" />
             </Border>
+            <!-- Image2 -->
             <Border Grid.Row="0" Grid.Column="6" Background="#9bcbeb" Height="Auto" Width="Auto">
                 <Image Source="{Binding Data6}" />
             </Border>
+            <!-- Image3 -->
             <Border Grid.Row="0" Grid.Column="7" Background="#9bcbeb" Height="Auto" Width="Auto">
                 <Image Source="{Binding Data7}" />
             </Border>
-            <TextBlock Grid.Row="1" Grid.Column="0" Text="{Binding Data2}" Margin="16,0,0,0" />
-            <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding Data3}" Margin="16,0,0,0" />
-            <TextBlock Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" Text="{Binding Data5}" Margin="16,0,0,0" />
+            <!-- Contact -->
+            <Border Grid.Row="1" Grid.Column="0" Background="#9bcbeb" Height="Auto" Width="Auto">
+                <TextBlock Grid.Row="1" Grid.Column="0" Height="24" Width="340" Text="{Binding Data2}" Margin="16,0,0,0" />
+            </Border>
+            <!-- Phone -->
+            <Border Grid.Row="1" Grid.Column="1" Background="#9bcbeb" Height="24" Width="195">
+                <TextBlock Grid.Row="1" Grid.Column="1" Height="24" Width="195" Text="{Binding Data3}" Margin="16,0,0,0" />
+            </Border>
+            <!-- Email -->
+            <Border Grid.Row="1" Grid.Column="2" Background="#9bcbeb" Height="Auto" Width="Auto" Grid.ColumnSpan="2">
+                <TextBlock Grid.Row="1" Grid.Column="1" Height="24" Width="195" Text="{Binding Data4}" Grid.ColumnSpan="2" Margin="16,0,0,0" />
+            </Border>
+            <!-- Days -->
+            <Border Grid.Row="1" Grid.Column="4" Background="#9bcbeb" Height="24" Width="157">
+                <TextBlock Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2"  Height="24" Width="157" Text="{Binding Data5}" Margin="16,0,0,0" />
+            </Border>
+            <!-- Border -->
             <Border Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="8" BorderBrush="white" BorderThickness="0,0,0,1" Height="1" />
         </Grid>
     </DataTemplate>

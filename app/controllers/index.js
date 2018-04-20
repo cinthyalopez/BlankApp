@@ -41,7 +41,7 @@ var client = Ti.Network.createHTTPClient({
             items0.push(
                 { 
                     properties: { 
-                        title: userObject.name.title + ' ' + userObject.name.first + ' ' + userObject.name.last, 
+                        title: userObject.name.title + ' ' + userObject.name.first + ' ' + userObject.name.last + ' lets see how more long can we make this to test the text wrap in the text block element in uwp!', 
                         subtitle: userObject.location.street + ' ' + userObject.location.city + ' ' + userObject.location.state + ' ' + userObject.location.postcode, 
                         description: '$1,2345.00',
                         data0: '4/12/17',
